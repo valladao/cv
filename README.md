@@ -96,14 +96,12 @@ Delicately working for the world's largest sporting goods retailer's (Decathlon)
 <div class="page-break"></div>
 
 ### TerraCotta Arte Sacra
-
 **Full Stack Web Developer**  
 _Oct 2009 – Jun 2021_
 
-- Led development of the e-commerce store using Shopify Liquid, HTML, CSS, and JavaScript.
-- Created an in-house ERP integrated with Shopify via API and webhooks.
-- Maintained multiple theme versions and implemented performance and SEO improvements.
-- Technologies: PHP (CodeIgniter), Node.js, AngularJS, Vue.js, MySQL.
+Responsive for E-commerce Store Theme through Shopify template language
+(Liquid) and HTML, CSS, and JavaScript. Developed company's ERP, integrated
+with Shopify API and webhooks. Technologies involved:
 
 #### ERP TC Admin
 
