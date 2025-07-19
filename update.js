@@ -35,9 +35,17 @@ const MarkdownIt = require('markdown-it');
     </html>
   `);
 
-  await page.pdf({ path: 'manoel-valladao-cv.pdf', format: 'A4' });
+  await page.pdf({
+    path: 'manoel-valladao-cv.pdf',
+    format: 'A4',
+    margin: {
+        top: '1.5cm',
+        right: '0.5cm',
+        bottom: '1.5cm',
+        left: '0.5cm'
+    }
+  });
 
   await browser.close();
   console.log('✔ PDF generated as manoel-valladao-cv.pdf');
 })();
-
