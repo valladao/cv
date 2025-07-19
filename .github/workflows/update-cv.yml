@@ -30,6 +30,7 @@ jobs:
         run: |
           git config user.name "Manoel Valladão"
           git config user.email "valladao@gmail.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/valladao/cv.git
           git add manoel-valladao-cv.pdf
           git commit -m "chore: auto-update manoel-valladao-cv.pdf" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/valladao/cv.git HEAD:main --force
+          git push origin HEAD:main --force
