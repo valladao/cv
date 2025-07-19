@@ -1,4 +1,4 @@
-name: Generate PDF CV
+name: Generate and Commit PDF CV
 
 on:
   push:
@@ -26,7 +26,7 @@ jobs:
       - name: Generate PDF
         run: npm run update
 
-      - name: Commit and push updated PDF with explicit authentication
+      - name: Commit and push updated PDF with token
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
@@ -34,8 +34,4 @@ jobs:
           git config user.email "valladao@gmail.com"
           git add manoel-valladao-cv.pdf
           git commit -m "chore: auto-update manoel-valladao-cv.pdf" || echo "No changes to commit"
-            
-          git remote set-url origin https://github.com/valladao/cv.git
-          echo "echo \$GH_PAT" > askpass.sh
-          chmod +x askpass.sh
-          GIT_ASKPASS=./askpass.sh git push https://github.com/valladao/cv.git HEAD:main --force
+          git push https://x-access-token:${GH_PAT}@github.com/valladao/cv.git HEAD:main --force
