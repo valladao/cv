@@ -1,0 +1,10 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "scripts": {
+    "update": "node update.js"
+  },
+  "devDependencies": {
+    "markdown-pdf": "^11.0.0"
+  }
+}
