@@ -59,6 +59,15 @@ Delicately working for the world's largest sporting goods retailer's (Decathlon)
 3. Validated events using GA4 DebugView and Tag Assistant.
 4. Integrated analytics logic into performance and accessibility-aware components.
 
+#### Product Q&A Section (Dec 2023 – Jan 2024)
+
+1. Designed a dynamic block for displaying customer questions and staff answers.
+2. Implemented logic to loop through Q&A metafields tied to individual products.
+3. Built a structured, accessible layout using native Shopify components and Liquid.
+4. Ensured compatibility with translation systems and responsive breakpoints.
+5. Enabled content management through Shopify admin without the need for hardcoding.
+6. Integrated fallback handling for products without Q&A content.
+
 #### Van Rysel Storefront Rollout (2024)
 
 1. Adapted core theme architecture to brand-specific requirements.
@@ -81,15 +90,6 @@ Delicately working for the world's largest sporting goods retailer's (Decathlon)
 2. Connected to Storefront API and built shared components.
 3. Configured deployment via Oxygen CLI and GitHub workflows.
 4. Delivered design system integration before project was frozen.
-
-#### Product Q&A Section (Dec 2023 – Jan 2024)
-
-1. Designed a dynamic block for displaying customer questions and staff answers.
-2. Implemented logic to loop through Q&A metafields tied to individual products.
-3. Built a structured, accessible layout using native Shopify components and Liquid.
-4. Ensured compatibility with translation systems and responsive breakpoints.
-5. Enabled content management through Shopify admin without the need for hardcoding.
-6. Integrated fallback handling for products without Q&A content.
 
 ---
 
