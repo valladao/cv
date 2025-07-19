@@ -36,4 +36,4 @@ jobs:
           commit_user_email: valladao@gmail.com
           push_options: --force
         env:
-          GIT_AUTH_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
