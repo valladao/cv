@@ -70,7 +70,7 @@ Delicately working for the world's largest sporting goods retailer's (Decathlon)
 
 #### Checkout Extensibility Project (2023–2024)
 
-1. Developed delivery customizations for shipping logic.
+1. Developed delivery customization for shipping logic.
 2. Integrated dynamic content blocks and cart metadata.
 3. Ensured compatibility across express and mobile checkout flows.
 4. Deployed without reliance on `checkout.liquid`, following Shopify best practices.
