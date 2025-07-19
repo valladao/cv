@@ -1,0 +1,33 @@
+name: Generate PDF CV
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "update.js"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate PDF
+        run: npm run update
+
+      - name: Commit updated PDF
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-update manoel-valladao-cv.pdf"
+          file_pattern: manoel-valladao-cv.pdf
