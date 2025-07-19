@@ -8,7 +8,7 @@ const { PDFDocument } = require('pdf-lib');
   const markdown = fs.readFileSync('README.md', 'utf-8');
   const html = md.render(markdown);
 
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
   const page = await browser.newPage();
 
   await page.setContent(`
