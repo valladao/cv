@@ -3,7 +3,7 @@
 **Senior Shopify Web Developer**
 
 São Paulo, Brazil  
-[LinkedIn](https://www.linkedin.com/in/valladao) · [valladao@gmail.com](mailto:valladao@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/valladao)  |  [valladao@gmail.com](mailto:valladao@gmail.com)
 
 ---
 
