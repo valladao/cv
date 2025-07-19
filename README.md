@@ -11,26 +11,19 @@ São Paulo, Brazil
 
 ### BairesDev
 
-**Shopify Web Developer**  
+**Shopify Web Developer | Decathlon USA**
 _Jun 2021 – Current_
 
-Dedicatedly working for the world's largest sporting goods retailer's US operations. As the primary web developer for Shopify e-commerce operations, responsibilities spanned both the legacy Shopify Liquid Theme and the development of new storefronts using Shopify Online Store 2.0 and Hydrogen v2 (Remix framework). My key contributions include:
+Delicately working for the world's largest sporting goods retailer's (Decathlon), USA operations. As the primary web developer for Shopify e-commerce operations, responsibilities spanned both the legacy Shopify Liquid Theme and the development of new storefronts using Shopify Online Store 2.0 and Hydrogen (Remix framework). My key contributions include:
 
 - Deploying site redesigns for multiple Shopify stores (including Van Rysel and decathlon.com).
-    
 - Leading performance optimization initiatives across multiple codebases.
-    
-- Collaborating on checkout extensibility for custom delivery experiences.
-    
 - Developing custom Shopify apps for frontend-specific logic.
-    
 - Driving accessibility compliance through repeated audit and implementation cycles.
-    
 - Migrating analytics stack to Google Analytics 4.
-    
 - Structuring scalable themes based on OS 2.0 architecture with metafields and metaobjects.
-    
 - Initiating the Hydrogen storefront development before project de-prioritization.
+- Collaborating on checkout extensibility for custom delivery experiences.
 
 <div class="page-break"></div>
 
