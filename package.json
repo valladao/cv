@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "markdown-it": "^14.1.0",
+    "pdf-lib": "^1.17.1",
     "puppeteer": "^24.14.0"
   }
 }
