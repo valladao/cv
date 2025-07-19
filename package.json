@@ -4,7 +4,8 @@
   "scripts": {
     "update": "node update.js"
   },
-  "devDependencies": {
-    "markdown-pdf": "^11.0.0"
+  "dependencies": {
+    "markdown-it": "^14.1.0",
+    "puppeteer": "^24.14.0"
   }
 }
