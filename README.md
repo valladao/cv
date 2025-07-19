@@ -66,6 +66,8 @@ Delicately working for the world's largest sporting goods retailer's (Decathlon)
 3. Implemented new metafield-driven content structure.
 4. Rolled out performance and accessibility enhancements for launch.
 
+<div class="page-break"></div>
+
 #### Checkout Extensibility Project (2023–2024)
 
 1. Developed delivery customizations for shipping logic.
@@ -90,6 +92,8 @@ Delicately working for the world's largest sporting goods retailer's (Decathlon)
 6. Integrated fallback handling for products without Q&A content.
 
 ---
+
+<div class="page-break"></div>
 
 ### TerraCotta Arte Sacra
 
