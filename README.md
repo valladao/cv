@@ -31,7 +31,8 @@ Dedicatedly working for the world's largest sporting goods retailer's US operati
 - Structuring scalable themes based on OS 2.0 architecture with metafields and metaobjects.
     
 - Initiating the Hydrogen storefront development before project de-prioritization.
-    
+
+<div class="page-break"></div>
 
 #### Performance Optimization Project – Phase I (Oct 2021 – Jul 2022)
 
@@ -163,7 +164,7 @@ _Oct 2009 – Jun 2021_
 - Customized three versions of the storefront theme
     
 - Integrated analytics, SEO, and responsive improvements
-    
+
 
 ---
 
@@ -179,6 +180,8 @@ _Bachelor's in Electronic Engineering (Telecommunications), 2004_
 _Technical Degree in Electronics, 1998_
 
 ---
+
+<div class="page-break"></div>
 
 ## Skills
 

@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 const MarkdownIt = require('markdown-it');
 
 (async () => {
-  const md = new MarkdownIt();
+  const md = new MarkdownIt({ html: true });
   const markdown = fs.readFileSync('README.md', 'utf-8');
   const html = md.render(markdown);
 
@@ -28,6 +28,12 @@ const MarkdownIt = require('markdown-it');
             padding: 2px 4px;
             border-radius: 4px;
             font-family: monospace;
+          }
+          .page-break {
+            page-break-before: always;
+            break-before: page;
+            display: block;
+            height: 0;
           }
         </style>
       </head>
