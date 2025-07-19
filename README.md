@@ -137,10 +137,10 @@ _Technical Degree in Electronics, 1998_
 ## Skills
 
 - Shopify Liquid / OS 2.0
-- Hydrogen / Remix / Tailwind CSS / Headless API
+- Hydrogen / Remix / Tailwind CSS / Headless Storefront API
 - GA4 / Analytics & Event Tracking
 - A11y / WCAG Accessibility Compliance
-- Gulp / GraphQL / JSON Templates
+- Gulp / GraphQL
 - Performance Optimization / Core Web Vitals
 
 ## Languages
