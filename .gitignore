@@ -87,6 +87,5 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
+# Markdown reader files
 .obsidian/
-
-manoel-valladao-cv.pdf
