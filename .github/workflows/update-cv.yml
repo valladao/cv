@@ -26,12 +26,15 @@ jobs:
       - name: Generate PDF
         run: npm run update
 
-      - name: Commit and push updated PDF with token
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+      - name: Setup SSH access with deploy key
+        uses: webfactory/ssh-agent@v0.8.0
+        with:
+          ssh-private-key: ${{ secrets.CV_DEPLOY_KEY }}
+
+      - name: Commit and push PDF via SSH
         run: |
           git config user.name "Manoel Valladão"
           git config user.email "valladao@gmail.com"
           git add manoel-valladao-cv.pdf
           git commit -m "chore: auto-update manoel-valladao-cv.pdf" || echo "No changes to commit"
-          git push https://x-access-token:${GH_PAT}@github.com/valladao/cv.git HEAD:main --force
+          git push git@github.com:valladao/cv.git HEAD:main
