@@ -68,14 +68,14 @@ Delicately working for the world's largest sporting goods retailer's (Decathlon)
 5. Enabled content management through Shopify admin without the need for hardcoding.
 6. Integrated fallback handling for products without Q&A content.
 
+<div class="page-break"></div>
+
 #### Van Rysel Storefront Rollout (2024)
 
 1. Adapted core theme architecture to brand-specific requirements.
 2. Customized PDP, navigation, and geometry/size components.
 3. Implemented new metafield-driven content structure.
 4. Rolled out performance and accessibility enhancements for launch.
-
-<div class="page-break"></div>
 
 #### Checkout Extensibility Project (2023–2024)
 
