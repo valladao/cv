@@ -14,7 +14,7 @@ São Paulo, Brazil
 **Shopify Web Developer | Decathlon USA**
 _Jun 2021 – Current_
 
-Delicately working for the world's largest sporting goods retailer's (Decathlon), USA operations. As the primary web developer for Shopify e-commerce operations, responsibilities spanned both the legacy Shopify Liquid Theme and the development of new storefronts using Shopify Online Store 2.0 and Hydrogen (Remix framework). My key contributions include:
+Delicately working for the world's largest sporting goods retailer's (Decathlon), USA operations. As the primary web developer for Shopify e-commerce operations, responsibilities spanned both the legacy Shopify Liquid Theme and the development of new storefronts using Shopify Online Store 2.0 and Hydrogen. My key contributions include:
 
 - Implement new sites for [Decathlon](https://www.decathlon.com/) and [Van Rysel Cycling](https://www.vanryselus.com/).
 - Deploying multiple site redesigns, features and sections for these stores.
@@ -77,19 +77,16 @@ Delicately working for the world's largest sporting goods retailer's (Decathlon)
 3. Implemented new metafield-driven content structure.
 4. Rolled out performance and accessibility enhancements for launch.
 
-#### Checkout Extensibility Project (2023–2024)
+#### Hydrogen Storefront Setup (Jan 2023 – Mar 2023)
 
-1. Developed delivery customization for shipping logic.
-2. Integrated dynamic content blocks and cart metadata.
-3. Ensured compatibility across express and mobile checkout flows.
-4. Deployed without reliance on `checkout.liquid`, following Shopify best practices.
+Initiated the Hydrogen v2 storefront project by structuring the codebase with Tailwind CSS, Headless UI, and Decathlon’s Vitamin Design System. I configured the deployment pipeline using Oxygen CLI and implemented initial design system integration. Although the project was frozen due to strategic changes, a few storefront sections were developed and validated before the freeze.
 
-#### Hydrogen Storefront Setup (Mar 2023 – Nov 2023)
+#### Additional contributions
 
-1. Set up project structure with Tailwind CSS and Vitamin Design System.
-2. Connected to Storefront API and built shared components.
-3. Configured deployment via Oxygen CLI and GitHub workflows.
-4. Delivered design system integration before project was frozen.
+1. Implemented delivery customization using Shopify Functions, tailored for Shopify Plus checkout.
+2. Project changing/updating Decathlon visual identity system (VIS), per the opportunity of the Paris Olympic games.
+3. Participation in BairesDev as Mentor in additional projects: Pendulum Life, etc, etc
+
 
 ---
 
@@ -135,9 +132,12 @@ _Technical Degree in Electronics, 1998_
 
 ## Skills
 
-- Shopify Liquid / OS 2.0
-- Hydrogen / Remix / Tailwind CSS / Headless Storefront API
-- GA4 / Analytics & Event Tracking
+- Legacy Shopify Liquid / Shopify Online Shop 2.0 (OS 2.0)
+- Hydrogen / Headless Storefront API
+- TypeScript / React
+- Next.JS / React Router / Remix
+- Tailwind CSS
+- Analytics & Event Tracking / Google Analytics 4
 - A11y / WCAG Accessibility Compliance
 - Gulp / GraphQL
 - Performance Optimization / Core Web Vitals
