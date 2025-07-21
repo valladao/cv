@@ -14,15 +14,14 @@ São Paulo, Brazil
 **Shopify Web Developer | Decathlon USA**
 _Jun 2021 – Current_
 
-Delicately working for the world's largest sporting goods retailer's (Decathlon), USA operations. As the primary web developer for Shopify e-commerce operations, responsibilities spanned both the legacy Shopify Liquid Theme and the development of new storefronts using Shopify Online Store 2.0 and Hydrogen. My key contributions include:
+Dedicatedly working for the world's largest sporting goods retailer (Decathlon), focusing on its US operations. As the primary web developer for Shopify e-commerce operations, responsibilities spanned both the legacy Shopify Liquid Theme and the development of new storefronts using Shopify Online Store 2.0 and Hydrogen. My key contributions include:
 
 - Implement new sites for [Decathlon](https://www.decathlon.com/) and [Van Rysel Cycling](https://www.vanryselus.com/).
-- Deploying multiple site redesigns, features and sections for these stores.
-- Leading performance optimization initiatives.
-- Developing custom Shopify apps.
-- Driving accessibility compliance through repeated audit and implementation cycles.
-- Migrating and Google Analytics 4 stacking.
-- Initiating the Hydrogen storefront development.
+- Deployed multiple site redesigns, features, and sections.
+- Led performance optimization initiatives.
+- Drove accessibility compliance through repeated audit and implementation cycles.
+- Migrated the analytics stack to Google Analytics 4.
+- Initiated the Hydrogen storefront development.
 
 <div class="page-break"></div>
 
@@ -35,16 +34,7 @@ Delicately working for the world's largest sporting goods retailer's (Decathlon)
 5. Prioritized font loading and reduced render-blocking assets.
 6. Established metrics tracking using Lighthouse and Chrome UX Report.
 
-
-#### Performance Optimization Project – Phase II (Apr 2023 – Oct 2023)
-
-1. Refactored homepage, PDP, and navigation templates for LCP and CLS.
-2. Split JS bundles, deferred third-party scripts.
-3. Added Gulp pipeline for compression and selective loading.
-4. Improved preload logic and image prioritization.
-5. Implemented scoped performance monitoring across routes.
-
-#### Accessibility Implementation Cycles (2022–2024)
+#### Accessibility Implementation Cycles (2022–2023)
 
 1. Addressed ARIA attributes, contrast, focus states, and tab index logic.
 2. Fixed accessibility in carousels, menus, and PDP content.
@@ -52,30 +42,30 @@ Delicately working for the world's largest sporting goods retailer's (Decathlon)
 4. Embedded A11y as part of PR review workflow and guidelines.
 5. Coordinated improvements across designers and international dev teams.
 
+#### Product Q&A Section (Dec 2022 – Jan 2023)
+
+Developed a Q&A feature for product pages using metafields and native Shopify components, with accessibility in mind. Integrated a Shopify Proxy App and Google Cloud Function to handle question submissions securely.
+
 #### Google Analytics 4 Migration (May 2023 – Jul 2023)
 
 1. Implemented full GA4 integration with e-commerce events.
 2. Refactored legacy tracking scripts and removed deprecated tags.
 3. Validated events using GA4 DebugView and Tag Assistant.
-4. Integrated analytics logic into performance and accessibility-aware components.
 
-#### Product Q&A Section (Dec 2023 – Jan 2024)
+#### Performance Optimization Project – Phase II (Apr 2023 – Oct 2023)
 
-1. Designed a dynamic block for displaying customer questions and staff answers.
-2. Implemented logic to loop through Q&A metafields tied to individual products.
-3. Built a structured, accessible layout using native Shopify components and Liquid.
-4. Ensured compatibility with translation systems and responsive breakpoints.
-5. Enabled content management through Shopify admin without the need for hardcoding.
-6. Integrated fallback handling for products without Q&A content.
+1. Improved liquid code based on Shopify Theme Check integration
+2. Refactored homepage, PDP, and navigation templates for LCP and CLS.
+3. Deferred third-party scripts.
+4. Improved preload logic and image prioritization.
 
 <div class="page-break"></div>
 
-#### Van Rysel Storefront Rollout (2024)
+#### Van Rysel Storefront Development (Dec 2024 - May 2025)
 
 1. Adapted core theme architecture to brand-specific requirements.
 2. Customized PDP, navigation, and geometry/size components.
 3. Implemented new metafield-driven content structure.
-4. Rolled out performance and accessibility enhancements for launch.
 
 #### Hydrogen Storefront Setup (Jan 2023 – Mar 2023)
 
@@ -84,9 +74,8 @@ Initiated the Hydrogen v2 storefront project by structuring the codebase with Ta
 #### Additional contributions
 
 1. Implemented delivery customization using Shopify Functions, tailored for Shopify Plus checkout.
-2. Project changing/updating Decathlon visual identity system (VIS), per the opportunity of the Paris Olympic games.
-3. Participation in BairesDev as Mentor in additional projects: Pendulum Life, etc, etc
-
+2. Applied Decathlon’s new visual identity system (VIS) to the e-commerce platform in preparation for the Paris Olympic Games (Jan–Mar 2024).
+3. Acted as a mentor in additional BairesDev projects such as Pendulum Life, AKQA, Cierant, Red Ventures
 
 ---
 
